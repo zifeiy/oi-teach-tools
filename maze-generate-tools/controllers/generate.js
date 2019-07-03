@@ -8,6 +8,8 @@ module.exports = {
     get: function (req, res) {
         var row = parseInt(req.query['row']);
         var col = parseInt(req.query['col']);
+        if (!row) row = 10; if (row > 30) row = 30; 
+        if (!col) col = 10; if (col > 30) col = 30;
         var con = req.query['con'];
         console.log(`row=${row}, col=${col}, con=${con}`);
 
