@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>maze generate - zifeiy</title>
+</head>
+<body>
+	<div align="center">
+		<h2>随机二维迷宫生成器 - zifeiy</h2>
+		<form action="generate" method="get">
+			<table>
+				<tr>
+					<td>行数：</td><td><input type="text" name="row" value="10"></td>
+				</tr>
+				<tr>
+					<td>列数：</td><td><input type="text" name="col" value="10"></td>
+				</tr>
+				<tr>
+					<td>是否连通：</td>
+					<td>
+						<input name="con" type="radio" checked="checked" value="auto"/>随机
+						<input name="con" type="radio" value="yes" />是
+						<input name="con" type="radio" value="no" />否
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2"><div align="center"><input type="submit" value="点击生成"></div></td>
+				</tr>
+			</table>
+		</form>
+	</div>
+</body>
+</html>
