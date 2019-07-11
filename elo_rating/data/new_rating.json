@@ -1,0 +1,50 @@
+[
+    {
+        "name": "周润发",
+        "points": 610,
+        "rating": 1330,
+        "expected_points": -100,
+        "delta_rating": 29,
+        "new_rating": 1359
+    },
+    {
+        "name": "郭德纲",
+        "points": -100,
+        "rating": 1500,
+        "expected_points": 2000,
+        "delta_rating": -63,
+        "new_rating": 1437
+    },
+    {
+        "name": "刘亦菲",
+        "points": 6000,
+        "rating": 1500,
+        "expected_points": 380,
+        "delta_rating": 74,
+        "new_rating": 1574
+    },
+    {
+        "name": "周星驰",
+        "points": 380,
+        "rating": 1815,
+        "expected_points": 4200,
+        "delta_rating": -74,
+        "new_rating": 1741
+    },
+    {
+        "name": "周杰伦",
+        "points": 4200,
+        "rating": 1850,
+        "expected_points": 6000,
+        "delta_rating": -59,
+        "new_rating": 1791
+    },
+    {
+        "name": "刘德华",
+        "points": 2000,
+        "rating": 1890,
+        "expected_points": 610,
+        "delta_rating": 49,
+        "new_rating": 1939
+    }
+]
