@@ -1,6 +1,6 @@
 {
     "dependencies": {
-        "express": "4.16.4",
+        "express": "4.19.2",
         "express-handlebars": "3.0.2",
         "markdown-it": "8.4.2",
         "cookie-parser": "1.4.4",
